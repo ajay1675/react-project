@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.Signup {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: yellowgreen;
+}
+.Signup form {
+  background:red;
+  padding: 80px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.Signup h2 {
+  font-size: 120px;
+  margin-bottom: 60px;
+}
+.Signup input {
+  width: 800px;
+  padding: 30px;
+  font-size: 50px;
+  margin: 25px 0;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+.Signup button {
+  width: 800px;
+  padding: 25px;
+  font-size: 50px;
+  margin-top: 30px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Signup button:hover {
+  background: orange;
+}
